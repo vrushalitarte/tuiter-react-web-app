@@ -1,0 +1,12 @@
+.wd-body {
+    background-color: black;
+    border: solid rgb(47, 51, 54);
+    width: 598px;
+    /*76px margin left explained in bookmarks/index.css + 506px content width + 16px so 76+506+16=598*/
+    margin-left: 16px;
+    font-family: Arial;
+}
+
+.wd-block {
+    display: inline-block;
+}

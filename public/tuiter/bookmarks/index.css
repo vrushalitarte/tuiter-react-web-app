@@ -1,0 +1,109 @@
+.wd-title {
+    font-size: 20px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.wd-handle {
+    color: lightgray;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.wd-border {
+    margin: 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-bookmark-avatar {
+    margin-left: 16px;
+    margin-top: 12px;
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.wd-bookmark-poster {
+    margin-left: 76px;
+    /*avatar image 48px wide and 16px from side and 12px from avatar so 12+16+48=76px*/
+    margin-top: 12px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-bookmark-handle {
+    color: lightgray;
+    font-weight: normal;
+}
+
+.wd-bookmark-text {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    margin-left: 76px;
+    /*same margin explanation as for .wd-bookmark-poster*/
+    width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-bookmark-image-content {
+    position: relative;
+    width: 506px;
+    border-radius: 20px;
+    margin-left: 76px;
+    /*same margin explanation as for .wd-bookmark-poster*/
+    border: 1px solid lightgray;
+}
+
+.wd-bookmark-image {
+    margin-top: 0px;
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.wd-bookmark-image-text {
+    font-size: 15px;
+    color: lightgray;
+    padding: 12px;
+    margin: 0px;
+}
+
+.wd-bookmark-image-title {
+    color: white;
+    font-weight: bold;
+}
+
+.wd-icon-img {
+    width: 15px;
+    height: 15px;
+    padding: 12px;
+}
+
+.wd-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+.wd-icon-count {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.wd-like-count {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
