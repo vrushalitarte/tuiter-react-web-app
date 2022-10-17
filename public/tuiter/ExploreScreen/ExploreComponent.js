@@ -1,5 +1,5 @@
-import NavigationTabs from "../NavigationTabs";
-import PostSummaryList from "../PostSummaryList";
+import NavigationTabs from "../NavigationTabs/index.js";
+import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
     return(`
