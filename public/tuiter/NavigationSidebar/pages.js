@@ -1,0 +1,18 @@
+export default [
+    {   title: "Home", icon: "fa fa-home",
+    },
+    {   title: "Explore", icon: "fa fa-hashtag", active: true,
+    },
+    {   title: "Notifications", icon: "fa fa-bell",
+    },
+    {   title: "Messages", icon: "fa fa-envelope",
+    },
+    {   title: "Bookmarks", icon: "fa fa-bookmark",
+    },
+    {   title: "Lists", icon: "fa fa-list",
+    },
+    {   title: "Profile", icon: "fa fa-user",
+    },
+    {   title: "More", icon: "fa fa-ellipsis",
+    },
+];

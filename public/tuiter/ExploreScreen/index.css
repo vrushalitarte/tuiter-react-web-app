@@ -6,15 +6,15 @@
 input.search-text {
     padding-left: 40px;
     width: 90%;
+    color: gray;
 }
 
 .wd-caption {
     position: relative;
-    bottom: 48px;
+    bottom: 65px;
     left: 10px;
     text-align: left;
-    color: white;
-    font-size: 30px;
+    color: rgb(34, 34, 34);
 }
 
 .wd-image {
