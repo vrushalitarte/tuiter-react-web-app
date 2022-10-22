@@ -1,0 +1,43 @@
+[
+  {
+    "_id": 123,
+    "name": "Home",
+    "icon": "house-door-fill"
+  },
+  {
+    "_id": 234,
+    "name": "Explore",
+    "icon": "hash"
+  },
+  {
+    "_id": 345,
+    "name": "Notifications",
+    "icon": "bell-fill"
+  },
+  {
+    "_id": 456,
+    "name": "Messages",
+    "icon": "envelope-fill"
+  },
+  {
+    "_id": 567,
+    "name": "Bookmarks",
+    "icon": "bookmark-fill"
+  },
+  {
+    "_id": 678,
+    "name": "Lists",
+    "icon": "list-ul"
+  },
+  {
+    "_id": 789,
+    "name": "Profile",
+    "icon": "person-fill"
+  },
+  {
+    "_id": 890,
+    "name": "More",
+    "icon": "three-dots"
+  }
+]
+

@@ -1,0 +1,18 @@
+[
+    {
+        "_id": 123,
+        "name": "For You",
+        "page": "#"
+    },
+    {
+        "_id": 234,
+        "name": "Trending",
+        "page": "trending.html"
+    },
+    {
+        "_id": 345,
+        "name": "News",
+        "page": "news.html"
+    }
+]
+
