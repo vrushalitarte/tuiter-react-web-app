@@ -1,6 +1,6 @@
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuits-stats";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -16,10 +16,10 @@ const TuitItem = (
     const dispatch = useDispatch();
 
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     };
 
-    return(
+    return (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-auto">
@@ -33,7 +33,7 @@ const TuitItem = (
                            onClick={() => deleteTuitHandler(tuit._id)}></i>
                         <span className="fw-bolder">{tuit.userName}</span>
                         <i className="bi bi-patch-check-fill ms-2 me-2 text-primary"></i>
-                        @{tuit.handle}
+                        {tuit.handle}
                         <i className="bi bi-dot"></i>
                         {tuit.time}
                     </div>
